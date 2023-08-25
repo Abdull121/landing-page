@@ -1,0 +1,1117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  background-color: #ff862f;
+  height: 800px;
+  background-image: url("images/main-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+
+}
+
+nav {
+
+  float: right;
+  margin-right: 50px;
+  margin-top: 25px;
+  padding: 15px;
+
+}
+
+nav a {
+
+
+  margin-left: 35px;
+  text-decoration: none;
+  color: #Fbffa5;
+  font-family: sans-serif;
+  font-size: 20px;
+
+
+}
+
+nav a:hover {
+  color: #fafcd5;
+
+}
+
+.main-cont {
+  height: 500px;
+  width: 800px;
+  position: absolute;
+  top: 140px;
+
+}
+
+.main-cont img {
+  width: 350px;
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
+
+.text {
+  position: absolute;
+  bottom: 100px;
+  left: 150px;
+}
+
+.text h1 {
+  font-size: 140px;
+  color: #FFFF;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+
+}
+
+.text h2 {
+  position: absolute;
+  bottom: 0px;
+  left: 80px;
+  color: #Fbffa5;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+
+.bg-img img {
+  width: 100%;
+
+}
+
+/* section-2 */
+
+
+
+.content h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 80px;
+
+
+}
+
+.section-2 {
+  position: relative;
+  height: 850px;
+  background-image: url("images/s-2img1.png"), url("images/s-2img2.png"), url("images/s-2img3.png"), url("images/hint-1.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 100%, 100%, 100%;
+
+
+}
+
+
+
+.heading-1 {
+  position: absolute;
+  top: 400px;
+  left: 170px;
+}
+
+.heading-1 h1,
+.heading-2 h1,
+.heading-3 h1 {
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.heading-2 {
+  position: absolute;
+  left: 630px;
+  top: 400px;
+}
+
+.heading-3 {
+
+
+  position: absolute;
+  right: 200px;
+  top: 400px;
+
+
+}
+
+.paragraph-1 {
+  position: absolute;
+  top: 560px;
+  left: 170px;
+}
+
+.paragraph-1 p,
+.paragraph-2 p,
+.paragraph-3 p {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.717);
+}
+
+.paragraph-2 {
+  position: absolute;
+  top: 560px;
+  left: 630px;
+
+
+}
+
+.paragraph-3 {
+  position: absolute;
+  top: 560px;
+  right: 180px;
+
+}
+
+.tip {
+  position: absolute;
+  top: 750px;
+  left: 630px;
+
+
+}
+
+.tip p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ********** Section-3********** */
+
+.section-3 {
+  position: relative;
+  height: 850px;
+  background-color: #ff862f;
+  background-image: url("images/s-3img1.png"), url("images/s-3img2.png"), url("images/s-3img3.png"), url("images/s-3img4.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 100%, 100%, 100%;
+
+}
+
+
+
+.heading-s3 h1 {
+  color: #Fbffa5;
+  font-family: sans-serif;
+  font-weight: 500;
+  position: relative;
+  text-align: center;
+  font-size: 65px;
+  top: 150px;
+
+
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 320px;
+
+
+}
+
+.sub-heading h1 {
+  font-size: 30px;
+  margin-right: 70px;
+  margin-left: 50px;
+
+
+}
+
+#sB {
+  margin-left: 80px;
+
+}
+
+#sA {
+  margin-left: 100px;
+}
+
+.para-s3 {
+  display: flex;
+}
+
+.para-s3 p {
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 240px;
+  font-family: sans-serif;
+  color: #ffff;
+  line-height: 23px;
+
+}
+
+#pD {
+  position: absolute;
+  right: 245px;
+}
+
+
+
+/* ********** Section-4********** */
+
+.section-4 {
+  height: 850px;
+  position: relative;
+  background-image: url("images/s-4img1.png"), url("images/s-4img2.png"), url("images/s-4img3.png"), url("images/hint-1.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 100%, 100%, 100%;
+  background-position: 0px 0px, -30px -27px, -30px -27px, -30px 0px;
+}
+
+.s4-heading,
+.s5-heading,
+.s6-heading {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.s4-heading h1,
+.s5-heading h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+
+
+}
+
+.s4-subheading,
+.s5-subheading {
+  display: flex;
+
+
+}
+
+.s4-subheading a,
+.s5-subheading a {
+  margin-top: 420px;
+  margin-left: 250px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  height: 0px;
+
+
+}
+
+.s4-subheading a:hover,
+.s5-subheading a:hover {
+  color: #ff7700;
+
+}
+
+.s4-tip,
+.s5-tip {
+  justify-content: center;
+  margin-top: 250px;
+  margin-right: 50px;
+}
+
+.s4-tip p,
+.s5-tip p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ********** Section-5********** */
+
+
+.section-5 {
+  height: 850px;
+  position: relative;
+  background-image: url("images/s-5img1.png"), url("images/s-5img2.png"), url("images/s-5img3.png"), url("images/hint-1.png");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 100%, 100%;
+  background-position: 0px 0px, -40px 1px, -60px 0px, -30px 30px;
+
+}
+
+.s5-subheading a {
+  margin-top: 450px;
+  margin-left: 220px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+  height: 0px;
+
+
+}
+
+
+.section-6 {
+  position: relative;
+  height: 850px;
+  background-color: #ff862f;
+
+
+}
+
+.s6-heading h1 {
+  color: #Fbffa5;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  position: absolute;
+  left: 470px;
+  top: 100px;
+
+}
+
+.container-box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  top: 300px;
+
+}
+
+.container-box h1,
+.container-box-2 h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: sans-serif;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+
+
+
+}
+
+.num-1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+
+}
+
+.box-1 {
+  background-image: url("images/msg.png");
+  background-repeat: no-repeat;
+  background-size: 31%;
+  background-position: 0px 20px;
+}
+
+.box-2 {
+  background-image: url("images/question.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: -60px -15px;
+
+}
+
+.box-1,
+.box-2 {
+  background-color: #fafcd5;
+  width: 500px;
+  height: 150px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-left: 180px;
+  border-radius: 10px;
+
+
+}
+
+.content-box-1 {
+  text-align: center;
+  font-size: 10px;
+
+}
+
+
+
+.container-box-2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  position: relative;
+  top: 300px;
+
+}
+
+.box-3,
+.box-4 {
+  background-color: #fafcd5;
+  width: 500px;
+  height: 150px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-left: 180px;
+  border-radius: 10px;
+
+
+}
+
+.box-3 {
+  background-image: url("images/i-btn.png");
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: -55px -5px;
+}
+
+.box-4 {
+  background-image: url("images/telephone.png");
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: -40px 0px;
+}
+
+#preloader {
+  background-color: #fff;
+  background-image: url("images/load-ani.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* media-query */
+
+
+@media(min-width:1728px){
+  .heading-2 {
+ 
+    left: 700px;
+    top:450px;
+   
+  }
+  .heading-1{
+    left: 200px;
+    top:450px;
+    
+  }
+  .heading-3{
+    right:240px;
+    top:450px;
+    
+  }
+  .paragraph-1 {
+  
+    left: 200px;
+    top:630px;
+  }
+  .paragraph-2{
+    top:630px;
+    left: 680px;
+
+  }
+  .paragraph-3{
+    top:630px;
+    right: 200px;
+
+  }
+  .tip {
+ 
+    left: 680px;
+    top: 820px;
+    
+  
+  
+  }
+
+
+  .sub-heading h1 {
+ 
+    margin-right: 110px;
+    left: 20px;
+    margin-top: 100px;
+  
+  
+  }
+  
+ 
+  
+  .para-s3 p {
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 265px;
+    
+    line-height: 24px;
+  
+  }
+  
+  #pD {
+    position: absolute;
+    right: 255px;
+  }
+  .s4-subheading a
+ {
+  margin-top: 460px;
+  margin-left: 285px;
+ 
+}
+.s4-tip{
+  margin-top: 290px;
+}
+.s5-subheading a{
+  margin-top: 500px;
+  margin-left: 250px;
+}
+.s5-tip{
+  margin-top: 270px;
+}
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:1440px){
+
+  .heading-1 h1,
+.heading-2 h1,
+.heading-3 h1 {
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.heading-2 {
+ 
+  left: 610px;
+ 
+}
+
+.heading-3 {
+
+
+  right: 210px;
+
+
+}
+
+
+.paragraph-1 {
+  
+  left: 130px;
+}
+
+
+
+.paragraph-2 {
+  
+  left: 560px;
+
+}
+
+.paragraph-3 {
+ 
+  right: 140px;
+
+}
+
+.tip {
+ 
+  left: 570px;
+
+
+}
+
+.tip p {
+  font-size: 13px;
+  
+}
+.section-2 {
+ 
+  background-image: url("images/s-2img1.png"), url("images/s-2img2.png"), url("images/s-2img3.png"), url("images/hint-1.png");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 100%, 100%, 100%, 100%;
+  background-position: 0px 0px, 0px 0px , 0px 0px ,10px 50px;
+
+
+}
+
+.sub-heading h1 {
+ 
+  margin-right: 50px;
+  margin-left: 43px;
+
+
+}
+
+#sB {
+  margin-left: 80px;
+
+}
+
+#sA {
+  margin-left: 100px;
+}
+
+.para-s3 {
+  display: flex;
+}
+
+.para-s3 p {
+  text-align: center;
+  margin-top: 140px;
+  margin-left: 210px;
+  font-family: sans-serif;
+  color: #ffff;
+  line-height: 24px;
+
+}
+
+#pD {
+  position: absolute;
+  right: 200px;
+}
+
+.s4-subheading a
+ {
+  margin-top: 380px;
+  margin-left: 220px;
+ 
+}
+
+.section-4 {
+  
+  background-image: url("images/s-4img1.png"), url("images/s-4img2.png"), url("images/s-4img3.png"), url("images/hint-1.png");
+ 
+ 
+  background-position: 0px 0px, -30px -27px, -30px -27px, -30px 20px;
+}
+.s5-subheading a
+ {
+  margin-top: 400px;
+  margin-left: 185px;
+ 
+}
+.box-1,
+.box-2,.box-3,
+.box-4{
+
+  flex: 20%;
+
+ margin: 100px;
+ margin-bottom: 0px;
+ margin-top: 0px;
+ 
+  
+}
+.box-3,.box-4{
+  margin-top: 80px;
+}
+.s6-heading h1{
+  left: 27vw;
+}
+
+
+
+
+
+}
+
+@media(max-width:1280px){
+  .heading-1,.heading-2,.heading-3{
+    top:330px;
+
+  }
+  
+  .heading-2 {
+ 
+    left: 520px;
+  
+  }
+  
+  .heading-3 {
+  
+    right: 170px;
+  
+  }
+  
+  .paragraph-1,.paragraph-2,.paragraph-3{
+    top:480px;
+  }
+  .paragraph-1 {
+    
+    left: 150px;
+    
+  }
+  .paragraph-1 p,.paragraph-2 p,.paragraph-3 p{
+    font-size: 12px;
+  }
+  
+  
+  .paragraph-2 {
+    
+    left: 500px;
+  
+  }
+  
+  .paragraph-3 {
+   
+    right: 130px;
+  
+  }
+  
+  .tip {
+   
+    left: 500px;
+   top:670px;
+  
+  
+  }
+  
+  .tip p {
+    font-size: 12px;
+    
+  }
+
+
+  .heading-s3 h1 {
+    
+    top: 80px;
+  
+  
+  }
+
+
+
+
+
+  .sub-heading h1 {
+ 
+    margin-left:60px;
+    font-size: 22px;
+
+    
+   
+  
+  
+  
+  }
+  
+  
+  .para-s3 p {
+    
+    margin-top: 80px;
+    margin-left: 210px;
+    line-height: 24px;
+    font-size: 12px;
+    line-height: 15px;
+  
+  }
+  #pC{
+    position: absolute;
+    right: 470px;
+  }
+  
+  #pD {
+    position: absolute;
+    right: 190px;
+
+  }
+ 
+  .s4-heading h1{
+    font-size: 40px;
+
+  }
+  
+  .s4-subheading a
+   {
+    margin-top: 350px;
+    margin-left: 200px;
+    font-size: 20px;
+   
+  }
+  .s4-tip{
+    margin-top: 230px;
+  }
+
+  .s5-subheading a
+   {
+    margin-top: 350px;
+    margin-left: 176px;
+    font-size: 20px;
+   
+  }
+  .s5-tip{
+    margin-top: 220px;
+  }
+  .s5-tip p{
+    font-size: 13px;
+  }
+  .s6-heading {
+    text-align: center;
+    justify-content: center;
+  }
+ 
+ 
+  .s6-heading h1{ 
+    font-size: 40px;
+    left: 380px;
+
+  }
+  .box-1,.box-2, .box-3,.box-4{
+    width: 400px;
+    margin-left: 150px;
+  }
+
+}
+@media(max-width:1030px){
+
+
+
+  .text h1 {
+    font-size: 10vw;
+    margin-bottom: 150px;
+
+  
+  
+  }
+  
+  .text h2 {
+    position: absolute;
+    bottom: 80px;
+    left: 70px;
+    color: #Fbffa5;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  
+  .main-cont img{
+    width: 31vw;
+    height: auto;
+    max-width: 100%;
+  }
+
+
+
+
+  .heading-1 {
+    top: 250px;
+    left: 120px;
+  }
+  
+  .heading-1 h1,
+  .heading-2 h1,
+  .heading-3 h1 {
+    font-size: 1.7vw;
+    
+  }
+  
+  .heading-2 {
+    left: 420px;
+    top: 250px;
+  }
+  
+  .heading-3 {
+  
+  
+    position: absolute;
+    right: 140px;
+    top: 250px;
+  
+  
+  }
+  
+  .paragraph-1 {
+    position: absolute;
+    top: 380px;
+    left: 100px;
+  }
+  
+  .paragraph-1 p,
+  .paragraph-2 p,
+  .paragraph-3 p {
+   
+    font-size: 1vw;
+    line-height: 18px;
+    
+  }
+  
+  .paragraph-2 {
+    
+    top: 380px;
+    left: 390px;
+  
+  
+  }
+  
+  .paragraph-3 {
+   
+    top: 380px;
+    right: 100px;
+  
+  }
+  
+  .tip {
+    position: absolute;
+    top: 550px;
+    left: 380px;
+  
+  
+  }
+  
+  .tip p {
+    font-size: 1vw;
+    line-height: 19px;
+  }
+
+    .section-2 {
+ 
+      background-image: url("images/s-2img1.png"), url("images/s-2img2.png"), url("images/s-2img3.png"), url("images/hint-1.png");
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      background-size: 100%, 100%, 100%, 100%;
+      background-position: 0px 0px, 0px 0px , 0px 0px , -5px 60px;
+    
+    
+    }
+    .sub-heading {
+      position: relative;
+      bottom:12vh;
+    }
+    .sub-heading h1{
+      font-size: 20px;
+    }
+    
+    .para-s3 p{
+      position: relative;
+      bottom:14vh;
+      margin: 100px;
+      font-size: 10px;
+    }
+    #pC{
+      position: relative;
+      right: 0vw;
+      bottom:14vh;
+    }
+
+    #pD{
+      position: relative;
+      right: 0vw;
+      bottom:14vh;
+    }
+
+
+    .section-3 {
+      position: relative;
+      height: 850px;
+      background-color: #ff862f;
+      background-image: url("images/s-3img1.png"), url("images/s-3img2.png"), url("images/s-3img3.png"), url("images/s-3img4.png");
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      background-size: 100%, 100%, 100%, 100%;
+      background-position: -60px 0px ,-8px 0px,40px 0px,80px 0px;
+    
+    }
+
+
+
+
+
+
+    .section-4 {
+      height: 850px;
+      position: relative;
+      background-image: url("images/s-4img1.png"), url("images/s-4img2.png"), url("images/s-4img3.png"), url("images/hint-1.png");
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+      background-size: 100%, 100%, 100%, 100%;
+      background-position: -50px 0px, -30px -18px, 30px -18px, -30px 0px;
+    }
+    
+   
+    
+    
+    
+    
+    .s4-heading h1{
+      font-size: 3vw;
+    }
+    
+    .s4-subheading a
+    {
+      
+     
+      margin: 0 auto;
+      margin-top: 34vh;
+      font-size: 15px;
+      text-decoration: none;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: black;
+      height: 0px;
+    
+    
+    }
+    
+    
+    .s4-tip {
+      justify-content: center;
+      margin-top: 20vh  ;
+      margin-right: 50px;
+    }
+    
+    .s4-tip p,
+    .s5-tip p {
+      font-size: 10px;
+      font-weight: bold;
+      line-height: 18px;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    @media(max-width:600px){
+      nav {
+        display: none;
+      }
+
+      .container {
+   
+        height: 500px;
+        background-image: url("images/main-bg.png");
+        background-size: 150%;
+        background-position:-250px 80px;
+      
+      
+      
+      }
+
+  
+    }
+  }
+
+   
+
+
+  
+    
+
+
+
